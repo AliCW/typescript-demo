@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react-simple-maps": "^3.0.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
     "webpack-cli": "^5.1.4",
@@ -25,6 +26,7 @@
     "path-browserify": "^1.0.1",
     "react": "^18.3.1",
     "react-router-dom": "^6.27.0",
+    "react-simple-maps": "^3.0.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.95.0"
   }
