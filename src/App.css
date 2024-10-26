@@ -1,0 +1,10 @@
+.App{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: Helvetica, sans-serif;
+    color: rgba(0, 153, 255);
+}

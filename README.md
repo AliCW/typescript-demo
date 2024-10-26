@@ -12,6 +12,10 @@ to run:
 
     node consoleLog.js 
 
+to compile .tsx files:
+
+    tsc --jsx react Main.tsx
+
 
 ### bugs
 
