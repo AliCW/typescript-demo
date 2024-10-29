@@ -1,27 +1,33 @@
 .App{
+    font-family: Helvetica, sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    font-family: Helvetica, sans-serif;
     color: rgba(0, 153, 255);
+    margin-top: 1px;
+    margin-bottom: 2px;
 }
 
 .sub-header {
-    font-family: Helvetica, sans-serif;
     color: rgb(201, 62, 203);   
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
-.map {
+.map-div {
     display: inline-grid; 
-    margin-top: 5px;
+    margin-top: 3px;
   }
+
+.map {
+    margin: auto;
+}
 
 .slider {
     height: 9px;
-    font-family: Helvetica, sans-serif;
     letter-spacing: 2.5px;
     font-size: 1em;
     border-radius: 3px;
@@ -30,7 +36,6 @@
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-top: 1rem;
     margin-top: 5px;
     margin-bottom: 0.5%;
     margin-right: 1.5%;
@@ -60,3 +65,35 @@
 .slider-arrow {
     margin-bottom: 0.8%;
 }
+
+.eclipse-label {
+    letter-spacing: 2.5px;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+  }
+  
+  .eclipse-dropdown {
+    font-size: .875rem;
+    font-weight: 400;
+    outline: transparent solid 2px;
+    outline-offset: -2px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    font-size: 1em;
+    height: 2.5rem;
+    padding: 0 3rem 0 1rem;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #8d8d8d;
+    background-color: #000000;
+    color: #f4f4f4;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-left: 1%;
+    margin-bottom: 4px;
+  }
