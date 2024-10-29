@@ -41,7 +41,7 @@
     cursor: grab;
 }
 
-.speed-slider-thumb {
+.slider-thumb {
     color: rgb(0, 0, 0); 
     font-size: small;
     border-radius: 15px;
@@ -55,4 +55,8 @@
     cursor: grab;
     top: 0;
     bottom: 0;
+}
+
+.slider-arrow {
+    margin-bottom: 0.8%;
 }
